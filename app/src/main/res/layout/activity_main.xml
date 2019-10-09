@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/display_text_ieww"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="50dp"
+        android:text="Are you healthy??!"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/yes"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="yes"
+        android:text="Yes"
+        android:textSize="16dp"/>
+    <Button
+        android:id="@+id/sometimes"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="sometimes"
+        android:text="sometimes"
+        android:textSize="16dp"/>
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_red_dark"
+        android:onClick="No"
+        android:text="No"
+        android:textSize="16dp"/>
+    <TextView
+        android:id="@+id/condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="condition:"
+        android:textSize="30dp"/>
+
+
+</LinearLayout>
